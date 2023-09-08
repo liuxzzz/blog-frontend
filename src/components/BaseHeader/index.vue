@@ -3,7 +3,11 @@
 </script>
 
 <template>
-  <div>Header</div>
+  <div class="header">123</div>
 </template>
 
-<style scoped></style>
+<style lang="less" scoped>
+.header {
+  width: 100%;
+}
+</style>
