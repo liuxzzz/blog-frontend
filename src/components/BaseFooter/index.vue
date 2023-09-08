@@ -1,15 +1,7 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-
-
-defineProps<{ msg: string }>()
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-<div>Footer</div>
+  <div>Footer</div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
