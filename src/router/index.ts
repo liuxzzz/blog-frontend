@@ -2,7 +2,15 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const Blog = () => import("../views/blog/index.vue");
 
-const routes = [{ path: "/", component: Blog }];
+const About = () => import("../views/about/index.vue");
+
+const routes = [
+  { path: "/", component: Blog },
+  {
+    path: "/about",
+    component: About,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),

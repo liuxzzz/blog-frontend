@@ -7,7 +7,7 @@
     }"
   >
     <Header></Header>
-    <router-view></router-view>
+    <router-view class="main-page"></router-view>
     <Footer></Footer>
   </a-config-provider>
 </template>
@@ -15,3 +15,9 @@
 import Header from "@/components/BaseHeader/index.vue";
 import Footer from "@/components/BaseFooter/index.vue";
 </script>
+
+<style scoped>
+.main-page {
+  height: calc(100% - 80px);
+}
+</style>
